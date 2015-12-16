@@ -30,7 +30,7 @@ dependencies:
 
   # deep learning api
   - pycuda
-  - theano
+  - theano=0.8
   - pyparsing
   - PyDot # for computation graph visualization
 
