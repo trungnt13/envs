@@ -31,7 +31,7 @@ dependencies:
   # deep learning api
   - pycuda
   - theano
-  - pyparsing=1.5.6
+  - pyparsing
   - PyDot # for computation graph visualization
 
   # data science tools
