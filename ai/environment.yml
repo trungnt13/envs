@@ -1,0 +1,69 @@
+name: ai
+channels:
+  - https://conda.anaconda.org/numba # numba
+  - https://conda.anaconda.org/trung # multiprocessing-logging, pysoundfile, sidekit
+  - defaults
+dependencies:
+  - python=2.7
+  - Cython
+
+  # scienctific computing
+  - numpy
+  - scipy
+  - matplotlib
+  - pandas
+  - sympy
+  - nose
+  - numba=0.22.1
+
+  # interactive ipython and notebook
+  - ipython
+  - jupyter
+  - notedown #convert markdown to ipynb
+
+  # speech processing
+  - pysoundfile # read sph audio file python
+  - sidekit
+
+  # graphic processing
+  - opencv
+
+  # deep learning api
+  - pycuda
+  - theano
+  - PyDot # for computation graph visualization
+
+  # data science tools
+  - pymc
+  - scikit-learn
+
+  # data mining
+  - Scrapy
+  - praw # for reddit
+  - wikipedia
+  - guppy # for reddit
+  - html2text
+
+  # data management
+  - h5py # create dataset
+  - pymongo
+  - mongoengine
+  - PyYAML
+  - lxml
+  - openpyxl # read excel
+  - xlwt # create excel
+
+  # network
+  - paramiko #library for read remote file ssh
+  - pycrypto
+  - requests
+  - multiprocessing-logging
+  - Django
+
+  # others
+  # - image
+  - numexpr
+  - colorama
+  # - tkinter
+  # - readchar
+  - six
