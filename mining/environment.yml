@@ -15,7 +15,6 @@ dependencies:
   - sympy
   - nose
   - numba=0.22.1
-  - pydot2 # for computation graph visualization
 
   # interactive ipython and notebook
   - ipython
@@ -32,6 +31,8 @@ dependencies:
   # deep learning api
   - pycuda
   - theano=0.8
+  - pyparsing
+  - PyDot # for computation graph visualization
 
   # data science tools
   - pymc
