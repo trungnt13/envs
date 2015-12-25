@@ -1,10 +1,11 @@
-name: gpu
+name: ai
 channels:
   - https://conda.anaconda.org/numba # numba
   - https://conda.anaconda.org/trung # multiprocessing-logging, pysoundfile, sidekit
   - defaults
 dependencies:
   - python=2.7
+  - Cython
 
   # scienctific computing
   - numpy=1.10.2
@@ -15,9 +16,13 @@ dependencies:
   - nose
   - numba=0.22.1
   - pydot2 # for computation graph visualization
+  - openmpi=1.10.1
+  - mpi4py=2.0.0
 
   # interactive ipython and notebook
   - ipython
+  - jupyter
+  - notedown #convert markdown to ipynb
 
   # speech processing
   - pysoundfile # read sph audio file python
@@ -35,19 +40,27 @@ dependencies:
   - scikit-learn
 
   # data mining
+  - Scrapy
+  - praw # for reddit
+  - wikipedia
+  - guppy # for reddit
   - html2text
 
   # data management
-  - h5py-mpi # create dataset
+  # - h5py-mpi # create dataset
   - pymongo
+  - mongoengine
   - PyYAML
   - lxml
+  - openpyxl # read excel
+  - xlwt # create excel
 
   # network
   - paramiko #library for read remote file ssh
   - pycrypto
   - requests
   - multiprocessing-logging
+  - Django
 
   # others
   # - image
