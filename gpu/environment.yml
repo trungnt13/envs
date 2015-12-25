@@ -38,7 +38,7 @@ dependencies:
   - html2text
 
   # data management
-  - h5py=2.5.0 # create dataset
+  - h5py-mpi # create dataset
   - pymongo
   - PyYAML
   - lxml
