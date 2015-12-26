@@ -1,3 +1,36 @@
+#################################################################
+# Note: you have to build h5py-mpi yourself
+# 		if you want none mpi verstion add this to dependencies: - h5py=2.5.0
+#		openmpi is built with macport gcc-4.9.3
+#
+# * Download openmpi-1.10.1 source code
+# 		cd openmpi-1.10.1
+# 		./configure --prefix=/Users/trungnt13/libs/openmpi
+# 		make all
+# 		make install
+#		export PATH=/Users/trungnt13/libs/openmpi/bin:$PATH
+#		export DYLD_LIBRARY_PATH=/Users/trungnt13/libs/openmpi/lib:$DYLD_LIBRARY_PATH
+#		export CPPFLAGS=-I/Users/trungnt13/libs/openmpi/include
+#
+# * Download hdf5 source, then build hdf5-parrallel:
+# 		export CC=/Users/trungnt13/libs/openmpi/bin/mpicc
+# 		./configure --prefix=/Users/trungnt13/libs/hdf5-par --enable-parallel --enable-shared
+# 		make
+# 		make check
+# 		make install
+#		export PATH=/Users/trungnt13/libs/hdf5-par/bin:$PATH
+#		export DYLD_LIBRARY_PATH=/Users/trungnt13/libs/hdf5-par/lib:$DYLD_LIBRARY_PATH
+#		export CPPFLAGS=-I/Users/trungnt13/libs/hdf5-par/include
+#
+# * source activate ai
+# * pip install mpi4py
+# * Git clone h5py, then build h5py:
+# 		export CC=/Users/trungnt13/libs/openmpi/bin/mpicc
+#		python setup.py configure --mpi --hdf5=/Users/trungnt13/libs/hdf5-par
+#		python setup.py build
+#		python setup.py install
+#################################################################
+
 name: ai
 channels:
   - https://conda.anaconda.org/numba # numba
@@ -16,8 +49,6 @@ dependencies:
   - nose
   - numba=0.22.1
   - pydot2 # for computation graph visualization
-  - openmpi=1.10.1
-  - mpi4py=2.0.0
 
   # interactive ipython and notebook
   - ipython
@@ -47,7 +78,7 @@ dependencies:
   - html2text
 
   # data management
-  # - h5py-mpi # create dataset
+  # - h5py=2.5.0 # create dataset
   - pymongo
   - mongoengine
   - PyYAML
