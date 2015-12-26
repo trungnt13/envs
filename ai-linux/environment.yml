@@ -3,15 +3,16 @@
 # 		if you want none mpi verstion add this to dependencies: - h5py=2.5.0
 #
 # * First, make sure you have openmpi and mpicc in your path
-# * source activate ai
-# * pip install mpi4py
-# * Download hdf5 source
-# * Build hdf5-parrallel
+#
+# * Download hdf5 source, then build hdf5-parrallel
 # 		export CC=/gcc/4.9.1/bin/mpicc
 # 		./configure --prefix=/path/to/parallel/hdf5 --enable-parallel --enable-shared
 # 		make
 # 		make check
 # 		make install
+#
+# * source activate ai
+# * pip install mpi4py
 # * Git clone h5py, then build h5py:
 # 		export CC=/gcc/4.9.1/bin/mpicc
 #		python setup.py configure --mpi --hdf5=/path/to/parallel/hdf5
