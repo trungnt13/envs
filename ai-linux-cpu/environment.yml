@@ -1,0 +1,90 @@
+#################################################################
+# Note: you have to build h5py-mpi yourself
+# 		if you want none mpi verstion add this to dependencies: - h5py=2.5.0
+#
+# * First, make sure you have openmpi and mpicc in your path
+#
+# * Download hdf5 source, then build hdf5-parrallel
+# 		export CC=/gcc/4.9.1/bin/mpicc
+# 		./configure --prefix=/path/to/parallel/hdf5 --enable-parallel --enable-shared
+# 		make
+# 		make check
+# 		make install
+#
+# * source activate ai
+# * pip install mpi4py
+# * Git clone h5py, then build h5py:
+# 		export CC=/gcc/4.9.1/bin/mpicc
+#		python setup.py configure --mpi --hdf5=/path/to/parallel/hdf5
+#		python setup.py build
+#		python setup.py install
+#################################################################
+
+name: ai-cpu
+channels:
+  - https://conda.anaconda.org/numba # numba
+  - https://conda.anaconda.org/trung # multiprocessing-logging, pysoundfile, sidekit
+  - defaults
+dependencies:
+  - python=2.7
+  - Cython
+
+  # scienctific computing
+  - numpy=1.10.2
+  - scipy
+  - matplotlib
+  - pandas
+  - sympy
+  - nose
+  - numba=0.22.1
+  - pydot2 # for computation graph visualization
+
+  # interactive ipython and notebook
+  - ipython
+  - jupyter
+  - notedown #convert markdown to ipynb
+
+  # speech processing
+  - pysoundfile # read sph audio file python
+  - sidekit
+
+  # graphic processing
+  - opencv
+
+  # deep learning api
+  #- theano=0.8
+
+  # data science tools
+  - pymc
+  - scikit-learn
+
+  # data mining
+  - Scrapy
+  - praw # for reddit
+  - wikipedia
+  - guppy # for reddit
+  - html2text
+
+  # data management
+  # - h5py=2.5.0 # create dataset
+  - pymongo
+  - mongoengine
+  - PyYAML
+  - lxml
+  - openpyxl # read excel
+  - xlwt # create excel
+
+  # network
+  - paramiko #library for read remote file ssh
+  - pycrypto
+  - requests
+  - multiprocessing-logging
+  - Django
+
+  # others
+  # - image
+  - numexpr
+  - colorama
+  # - tkinter
+  # - readchar
+  - six
