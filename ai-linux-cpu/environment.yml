@@ -6,7 +6,7 @@
 #
 # * Download hdf5 source, then build hdf5-parrallel
 # 		export CC=/gcc/4.9.1/bin/mpicc
-# 		./configure --prefix=/path/to/parallel/hdf5 --enable-parallel --enable-shared
+# 		./configure --prefix=/path/to/parallel/hdf5-par --enable-parallel --enable-shared
 # 		make
 # 		make check
 # 		make install
@@ -15,7 +15,7 @@
 # * pip install mpi4py
 # * Git clone h5py, then build h5py:
 # 		export CC=/gcc/4.9.1/bin/mpicc
-#		python setup.py configure --mpi --hdf5=/path/to/parallel/hdf5
+#		python setup.py configure --mpi --hdf5=/homeappl/home/trungnt/appl_taito/libs/hdf5-par
 #		python setup.py build
 #		python setup.py install
 #################################################################
@@ -52,7 +52,7 @@ dependencies:
   - opencv
 
   # deep learning api
-  #- theano=0.8
+  - theano=0.8
 
   # data science tools
   - pymc
