@@ -29,7 +29,10 @@
 #		python setup.py configure --mpi --hdf5=/Users/trungnt13/libs/hdf5-par
 #		python setup.py build
 #		python setup.py install
+#
+# pydot require graphviz, install graphviz with mac ports first
 #################################################################
+
 
 name: ai
 channels:
@@ -48,6 +51,7 @@ dependencies:
   - sympy
   - nose
   - numba=0.22.1
+  - graphviz # for computation graph visualization
   - pydot2 # for computation graph visualization
 
   # interactive ipython and notebook
@@ -81,7 +85,7 @@ dependencies:
   # - h5py=2.5.0 # create dataset
   - pymongo
   - mongoengine
-  - PyYAML
+  - pyyaml
   - lxml
   - openpyxl # read excel
   - xlwt # create excel
@@ -100,3 +104,4 @@ dependencies:
   # - tkinter
   # - readchar
   - six
+  - memory_profiler=0.41

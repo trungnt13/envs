@@ -69,7 +69,7 @@ dependencies:
   # - h5py=2.5.0 # create dataset
   - pymongo
   - mongoengine
-  - PyYAML
+  - pyyaml
   - lxml
   - openpyxl # read excel
   - xlwt # create excel
@@ -88,3 +88,4 @@ dependencies:
   # - tkinter
   # - readchar
   - six
+  - memory_profiler=0.41
