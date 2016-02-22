@@ -52,7 +52,7 @@ dependencies:
   - opencv
 
   # deep learning api
-  - theano=0.8
+  - theano
 
   # data science tools
   - pymc

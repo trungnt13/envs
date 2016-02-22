@@ -68,7 +68,7 @@ dependencies:
 
   # deep learning api
   - pycuda
-  - theano=0.8
+  - theano
 
   # data science tools
   - pymc
