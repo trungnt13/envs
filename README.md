@@ -9,7 +9,7 @@ For activating and using our environment:
 > source activate ai
 
 Deactivating environment:
-> deactivate ai
+> source deactivate
 
 Listing installed packages:
 > conda list

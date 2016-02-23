@@ -63,6 +63,7 @@ dependencies:
   - praw # for reddit
   - wikipedia
   - guppy # for reddit
+  - html5lib
   - html2text
 
   # data management
