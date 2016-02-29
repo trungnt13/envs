@@ -28,6 +28,7 @@ channels:
 dependencies:
   - python=2.7
   - Cython
+  - pillow
 
   # scienctific computing
   - numpy=1.10.2
@@ -89,4 +90,6 @@ dependencies:
   # - tkinter
   # - readchar
   - six
+  - odin
+
   - memory_profiler=0.41
