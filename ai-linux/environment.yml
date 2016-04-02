@@ -54,7 +54,8 @@ dependencies:
   - opencv
 
   # deep learning api
-  - pycuda
+  # - pycuda
+  - pygpu
   - theano
 
   # data science tools
