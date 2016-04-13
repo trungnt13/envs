@@ -74,6 +74,7 @@ dependencies:
 
   # data management
   - h5py=2.5.0 # create dataset
+  - pytables
   - pymongo
   - mongoengine
   - pyyaml
@@ -86,6 +87,7 @@ dependencies:
   - pycrypto
   - requests
   - multiprocessing-logging
+  - progressbar
   - Django
 
   # others
