@@ -43,7 +43,7 @@ dependencies:
   - python=2.7
   - Cython
   - pillow
-
+  - picklable_itertools
   # scienctific computing
   - numpy=1.10.2
   - scipy
