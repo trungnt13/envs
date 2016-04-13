@@ -30,6 +30,7 @@ dependencies:
   - Cython
   - pillow
   - picklable_itertools
+  - toolz
 
   # scienctific computing
   - numpy=1.10.2
