@@ -45,6 +45,7 @@ dependencies:
   - pillow
   - picklable_itertools
   - toolz
+
   # scienctific computing
   - numpy=1.10.2
   - scipy
@@ -56,6 +57,7 @@ dependencies:
   - numba=0.22.1
   - graphviz # for computation graph visualization
   - pydot2 # for computation graph visualization
+  - nltk
 
   # interactive ipython and notebook
   - ipython
@@ -73,6 +75,7 @@ dependencies:
   # - pycuda
   - pygpu
   - theano
+  - pymc
 
   # data science tools
   - pymc
