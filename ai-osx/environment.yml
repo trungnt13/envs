@@ -111,9 +111,10 @@ dependencies:
   # - image
   - numexpr
   - colorama
-  # - tkinter
-  # - readchar
   - six
   - odin
-
   - memory_profiler=0.41
+
+  - pip:
+    - scikits.samplerate
+    - git+https://github.com/mila-udem/picklable-itertools.git#egg=picklable-itertools
