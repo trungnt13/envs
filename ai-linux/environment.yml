@@ -29,7 +29,6 @@ dependencies:
   - python=2.7
   - Cython
   - pillow
-  - picklable_itertools
   - toolz
 
   # scienctific computing
@@ -99,7 +98,6 @@ dependencies:
   # - tkinter
   # - readchar
   - six
-  - odin
 
   - memory_profiler=0.41
 
