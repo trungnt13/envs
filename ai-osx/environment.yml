@@ -49,7 +49,8 @@ dependencies:
   - numpy=1.10.2
   - scipy
   - matplotlib
-  - seaborn
+  - vispy # visualization
+  - seaborn # visualization
   - pandas
   - sympy
   - nose
@@ -65,7 +66,6 @@ dependencies:
 
   # speech processing
   - pysoundfile # read sph audio file python
-  - sidekit
 
   # graphic processing
   - opencv
@@ -116,3 +116,5 @@ dependencies:
   - pip:
     - scikits.samplerate
     - git+https://github.com/mila-udem/picklable-itertools.git#egg=picklable-itertools
+    - git+https://github.com/trungnt13/islurm.git#egg=islurm
+    - sidekit
