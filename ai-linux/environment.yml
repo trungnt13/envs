@@ -50,6 +50,7 @@ dependencies:
   - notedown #convert markdown to ipynb
 
   # speech processing
+  - libsamplerate
   - pysoundfile # read sph audio file python
 
   # graphic processing
