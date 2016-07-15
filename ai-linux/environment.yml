@@ -99,11 +99,10 @@ dependencies:
   # - tkinter
   # - readchar
   - six
+  - sidekit
 
   - memory_profiler=0.41
 
   - pip:
     - scikits.samplerate
-    - git+https://github.com/mila-udem/picklable-itertools.git#egg=picklable-itertools
     - git+https://github.com/trungnt13/islurm.git#egg=islurm
-    - sidekit

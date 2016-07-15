@@ -113,9 +113,8 @@ dependencies:
   - colorama
   - six
   - memory_profiler=0.41
+  - sidekit
 
   - pip:
     - scikits.samplerate
-    - git+https://github.com/mila-udem/picklable-itertools.git#egg=picklable-itertools
-    - git+https://github.com/trungnt13/islurm.git#egg=islurm
-    - sidekit
+    - git+https://github.com/trungnt13/pyslurm.git#egg=pyslurm
