@@ -66,7 +66,7 @@ dependencies:
   - ipython
   - jupyter
   - notedown #convert markdown to ipynb
-  - ipywidget=5.2.2
+  - ipywidgets=5.2.2
 
   # speech processing
   - libsamplerate
