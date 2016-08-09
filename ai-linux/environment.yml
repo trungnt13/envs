@@ -38,7 +38,7 @@ dependencies:
   - numpy=1.11.1
   - scipy=0.17.1
   - matplotlib
-  - vispy # visualization
+  # - vispy # visualization
   - seaborn # visualization
   - pandas
   - sympy
