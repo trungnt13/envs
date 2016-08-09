@@ -47,7 +47,7 @@ dependencies:
   - pillow
   - toolz
   - psutil
-  - tcl/tk
+  # - tcl/tk
 
   # scienctific computing
   - numpy=1.11.1
