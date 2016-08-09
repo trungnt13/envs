@@ -22,32 +22,36 @@
 
 name: ai
 channels:
-  - https://conda.anaconda.org/numba # numba
   - https://conda.anaconda.org/trung # multiprocessing-logging, pysoundfile, sidekit
+  - https://conda.anaconda.org/numba # numba
+  - https://conda.anaconda.org/intel # intel
+  - https://conda.anaconda.org/conda-forge
   - defaults
 dependencies:
   - python=2.7
   - Cython
   - pillow
   - toolz
+  - psutil
+  - tcl/tk
 
   # scienctific computing
-  - numpy=1.10.2
-  - scipy
+  - numpy=1.11.1
+  - scipy=0.17.1
   - matplotlib
   - vispy # visualization
   - seaborn # visualization
   - pandas
   - sympy
   - nose
-  - numba=0.22.1
-  - pydot2 # for computation graph visualization
+  - numba
   - nltk
 
   # interactive ipython and notebook
   - ipython
   - jupyter
   - notedown #convert markdown to ipynb
+  - ipywidget>=5.2.2
 
   # speech processing
   - libsamplerate
@@ -106,3 +110,5 @@ dependencies:
   - pip:
     - scikits.samplerate
     - git+https://github.com/trungnt13/islurm.git#egg=islurm
+    - pyparsing==1.5.7
+    - pydot==1.0.28
