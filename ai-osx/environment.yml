@@ -59,7 +59,6 @@ dependencies:
   - nose
   - numba
   - graphviz # for computation graph visualization
-  - pydot2 # for computation graph visualization
   - nltk
 
   # interactive ipython and notebook
@@ -108,7 +107,6 @@ dependencies:
   - pycrypto
   - requests
   - multiprocessing-logging
-  - progressbar
   - Django
 
   # others

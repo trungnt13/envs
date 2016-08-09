@@ -92,7 +92,6 @@ dependencies:
   - pycrypto
   - requests
   - multiprocessing-logging
-  - progressbar
   - Django
 
   # others
