@@ -37,9 +37,8 @@
 name: ai
 channels:
   - https://conda.anaconda.org/trung # multiprocessing-logging, pysoundfile, sidekit
-  - https://conda.anaconda.org/numba # numba
-  - https://conda.anaconda.org/intel # intel
   - https://conda.anaconda.org/conda-forge
+  - https://conda.anaconda.org/numba # numba
   - defaults
 dependencies:
   - python=2.7
