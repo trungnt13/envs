@@ -25,6 +25,7 @@ channels:
   - https://conda.anaconda.org/trung # multiprocessing-logging, pysoundfile, sidekit
   - https://conda.anaconda.org/conda-forge
   - https://conda.anaconda.org/numba # numba
+  - https://conda.anaconda.org/r # r
   - defaults
 dependencies:
   - python=2.7
@@ -110,3 +111,4 @@ dependencies:
     - git+https://github.com/trungnt13/islurm.git#egg=islurm
     - pyparsing==1.5.7
     - pydot==1.0.28
+    - librosa
