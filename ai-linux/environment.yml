@@ -72,7 +72,6 @@ dependencies:
 
   # data mining
   - Scrapy
-  - praw # for reddit
   - wikipedia
   - guppy # for reddit
   - html5lib
@@ -112,3 +111,7 @@ dependencies:
     - pyparsing==1.5.7
     - pydot==1.0.28
     - librosa
+    - twython # for twitter
+    - vk # for vk
+    - facebook-sdk # facebook
+    - praw # for reddit
