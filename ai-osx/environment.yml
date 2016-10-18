@@ -69,7 +69,7 @@ dependencies:
   - ipywidgets=5.2.2
 
   # speech processing
-  - libsamplerate
+  # - libsamplerate # use brew to install libsamplerate (it's faster)
   - pysoundfile # read sph audio file python
 
   # graphic processing
