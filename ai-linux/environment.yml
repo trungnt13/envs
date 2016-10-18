@@ -54,7 +54,7 @@ dependencies:
   - ipywidgets=5.2.2
 
   # speech processing
-  - libsamplerate
+  # - libsamplerate
   - pysoundfile # read sph audio file python
 
   # graphic processing
@@ -98,15 +98,13 @@ dependencies:
   # - image
   - numexpr
   - colorama
-  # - tkinter
-  # - readchar
   - six
-  - sidekit
-
   - memory_profiler=0.41
+  - sidekit
+  - resampy
 
   - pip:
-    - scikits.samplerate
+    # - scikits.samplerate
     # - git+https://github.com/trungnt13/islurm.git#egg=islurm
     - pyparsing==1.5.7
     - pydot==1.0.28

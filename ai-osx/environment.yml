@@ -116,6 +116,7 @@ dependencies:
   - six
   - memory_profiler=0.41
   - sidekit
+  - resampy
 
   - pip:
     # - scikits.samplerate
