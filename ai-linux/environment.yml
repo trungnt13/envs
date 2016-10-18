@@ -107,7 +107,7 @@ dependencies:
 
   - pip:
     - scikits.samplerate
-    - git+https://github.com/trungnt13/islurm.git#egg=islurm
+    # - git+https://github.com/trungnt13/islurm.git#egg=islurm
     - pyparsing==1.5.7
     - pydot==1.0.28
     - librosa
