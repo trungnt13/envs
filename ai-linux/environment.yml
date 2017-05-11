@@ -46,6 +46,7 @@ dependencies:
   - nose
   - numba
   - nltk
+  - spacy
 
   # interactive ipython and notebook
   - ipython
@@ -65,7 +66,7 @@ dependencies:
   # - pygpu
   - theano
   - pymc
-
+  - networkx
   # data science tools
   - pymc
   - scikit-learn
@@ -78,7 +79,7 @@ dependencies:
   - html2text
 
   # data management
-  - h5py=2.6.0 # create dataset
+  - h5py # create dataset
   - pytables
   - pymongo
   - mongoengine
@@ -103,6 +104,11 @@ dependencies:
   - sidekit
   - resampy
 
+  # web dev
+  - flask
+  # python docs
+  - Sphinx
+
   - pip:
     # - scikits.samplerate
     # - git+https://github.com/trungnt13/islurm.git#egg=islurm
@@ -113,3 +119,4 @@ dependencies:
     - vk # for vk
     - facebook-sdk # facebook
     - praw # for reddit
+    - trello
