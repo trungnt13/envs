@@ -40,7 +40,8 @@ channels:
   - https://conda.anaconda.org/conda-forge
   - https://conda.anaconda.org/numba # numba
   - https://conda.anaconda.org/r # r
-  - defaults
+  - nodefaults
+  # - defaults
 dependencies:
   - python=2.7
   - Cython
