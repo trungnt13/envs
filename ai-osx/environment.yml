@@ -136,3 +136,4 @@ dependencies:
     - praw # for reddit
     - py-trello
     - pysptk
+    - tensorflow-gpu
