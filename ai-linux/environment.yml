@@ -119,4 +119,5 @@ dependencies:
     - vk # for vk
     - facebook-sdk # facebook
     - praw # for reddit
-    - trello
+    - py-trello
+    - pysptk
