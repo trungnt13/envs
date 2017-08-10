@@ -128,6 +128,7 @@ dependencies:
   - pip:
     # - scikits.samplerate
     # - git+https://github.com/trungnt13/pyslurm.git#egg=pyslurm
+    - pygame
     - pyparsing==1.5.7
     - pydot==1.0.28
     - librosa
