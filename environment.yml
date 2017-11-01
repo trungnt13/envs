@@ -36,7 +36,6 @@ dependencies:
   # data mining
   - Scrapy
   - wikipedia
-  - guppy # for reddit
   - html5lib
 
   # data management
