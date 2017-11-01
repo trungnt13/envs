@@ -42,7 +42,6 @@ dependencies:
   - wikipedia
   - guppy # for reddit
   - html5lib
-  - html2text
 
   # data management
   - h5py # create dataset
