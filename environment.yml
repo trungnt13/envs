@@ -30,9 +30,6 @@ dependencies:
   - notedown #convert markdown to ipynb
   - ipywidgets=5.2.2
 
-  # speech processing
-  - pysoundfile # read sph audio file python
-
   # graphic processing
   - opencv
   - scikit-learn
@@ -70,6 +67,7 @@ dependencies:
   - Sphinx
 
   - pip:
+    - soundfile # read sph audio file python
     - librosa
     - twython # for twitter
     - vk # for vk
