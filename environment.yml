@@ -59,7 +59,6 @@ dependencies:
   - colorama
   - six
   - memory_profiler=0.47
-  - sidekit
   - resampy
 
   # python docs
