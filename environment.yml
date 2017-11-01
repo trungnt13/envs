@@ -1,56 +1,54 @@
 name: ai
 channels:
-  - https://conda.anaconda.org/numba # numba
   - https://conda.anaconda.org/trung # multiprocessing-logging, pysoundfile, sidekit
+  - https://conda.anaconda.org/conda-forge
+  - https://conda.anaconda.org/numba # numba
+  - https://conda.anaconda.org/r # r
   - defaults
 dependencies:
-  - python=2.7
+  - python=3.5
   - Cython
+  - pillow
+  - toolz
+  - psutil
 
   # scienctific computing
-  - numpy=1.10.2
-  - scipy
+  - numpy=1.13.3
+  - scipy=0.19.1
   - matplotlib
-  - seaborn
+  - seaborn # visualization
   - pandas
   - sympy
   - nose
-  - numba=0.22.1
+  - numba
+  - nltk
+  - spacy
 
   # interactive ipython and notebook
   - ipython
   - jupyter
   - notedown #convert markdown to ipynb
+  - ipywidgets=5.2.2
 
   # speech processing
   - pysoundfile # read sph audio file python
-  - sidekit
 
   # graphic processing
   - opencv
-
-  # deep learning api
-  - pycuda
-  - theano=0.8
-  - pyparsing
-  - PyDot # for computation graph visualization
-
-  # data science tools
-  - pymc
   - scikit-learn
 
   # data mining
   - Scrapy
-  - praw # for reddit
   - wikipedia
   - guppy # for reddit
+  - html5lib
   - html2text
 
   # data management
-  - h5py=2.5.0 # create dataset
+  - h5py # create dataset
+  - pytables
   - pymongo
-  - mongoengine
-  - PyYAML
+  - pyyaml
   - lxml
   - openpyxl # read excel
   - xlwt # create excel
@@ -59,13 +57,24 @@ dependencies:
   - paramiko #library for read remote file ssh
   - pycrypto
   - requests
-  - multiprocessing-logging
   - Django
 
   # others
-  # - image
   - numexpr
   - colorama
-  # - tkinter
-  # - readchar
   - six
+  - memory_profiler=0.47
+  - sidekit
+  - resampy
+
+  # python docs
+  - Sphinx
+
+  - pip:
+    - librosa
+    - twython # for twitter
+    - vk # for vk
+    - facebook-sdk # facebook
+    - praw # for reddit
+    - pysptk
+    - tensorflow-gpu

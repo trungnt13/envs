@@ -4,6 +4,9 @@ Main goal is accelerating the development process of Machine Learning using pyth
 ### Create the environment
 > conda env create -f=/path/to/environment.yml
 
+### Delete environment
+> conda remove --name ai --all
+
 ### Using installed environment
 For activating and using our environment:
 > source activate ai
