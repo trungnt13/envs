@@ -27,7 +27,6 @@ dependencies:
   # interactive ipython and notebook
   - ipython
   - jupyter
-  - notedown #convert markdown to ipynb
   - ipywidgets=5.2.2
 
   # graphic processing
@@ -67,6 +66,7 @@ dependencies:
   - Sphinx
 
   - pip:
+    - notedown #convert markdown to ipynb
     - soundfile # read sph audio file python
     - librosa
     - twython # for twitter
