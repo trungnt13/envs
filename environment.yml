@@ -11,6 +11,7 @@ dependencies:
   - pillow
   - toolz
   - psutil
+  - pyzmq # extremly fast message passing for multiprocessing
 
   # scienctific computing
   - numpy=1.13.3
@@ -73,3 +74,4 @@ dependencies:
     - praw # for reddit
     - pysptk
     - tensorflow-gpu
+    - tqdm
