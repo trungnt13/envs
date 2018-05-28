@@ -65,6 +65,7 @@ dependencies:
   - Sphinx
 
   - pip:
+    - emoji
     - notedown #convert markdown to ipynb
     - soundfile # read sph audio file python
     - librosa
